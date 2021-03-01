@@ -129,6 +129,8 @@ main {
     height: 100%;
 
     display: none;
+
+    border: 10px solid rgb(255, 183, 183);
 }
 
 .vedo-card h3 {
