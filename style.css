@@ -58,7 +58,7 @@ html {
 
 
 /* float e clearfix */
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -95,7 +95,6 @@ main {
     background-color: white;
     border-radius: 20px;
 }
-
 /* rimosso margine all'ultima card. 15px per gutter */
 .row .card:last-child {
     margin-right: 0;
